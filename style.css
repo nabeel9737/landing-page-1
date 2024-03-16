@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#main #data{
+    height: 50px;
+    width: 100%;
+    background-color: #023876;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5vw;
+}
+#data .part1{
+         /* background-color: white; */
+         display: flex;
+         gap: 30px;
+         color: #9DC1F4;
+         cursor: pointer;
+}
+.part1  h5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#data .part2{
+    /* background-color: white; */
+    display: flex;
+    gap: 30px;
+    color: #9DC1F4;
+    cursor: pointer;
+}
+#data .part1 h5 i:hover{
+    background-color: red;
+}
+#data .part1 h5:hover{
+    background-color: rgb(226, 109, 109);
+}
+#data .part2 h5:hover{
+    background-color: rgb(226, 109, 109);
+}
+#main #nav{
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 20px 5vw;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav .part1{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    gap: 30px;
+    cursor: progress;
+
+}
+#nav .part2{
+    display: flex;
+    gap: 30px;
+    font-weight: 70px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) .5s;
+}
+#nav .part2 h5:hover{
+    background-color: #113967;
+    color: white;
+}
+#main #body{
+    height: 75%;
+    width: 100%;
+    background-color: #D3E1F2;
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+#body .part1{
+    height: 100%;
+    width: 60%;
+    display: flex;
+/* align-items: center; */
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    padding: 0px 5vw;
+    /* background-color: red; */
+    margin-top: -20px;
+    
+}
+.part1 #child1{
+    padding-bottom: 5px;
+    /* background-color: aqua; */
+    color: #113967;
+}
+.part1 #child2{
+    /* height: 30px; */
+    /* background-color: aqua; */
+    /* color: #113967; */
+    text-transform: uppercase;
+}
+.part1 #child3{
+    height: 30px;
+    /* background-color: aqua; */
+    width: 50%;
+}    /* padding:  10px 0vw; */
+
+#child3 h5{
+    padding: 10px 0px;
+}
+#body .part2{
+     /* background-color: black; */
+     height: 100%;
+     width: 40%;
+}
+#body .part2 img{
+    height: 100%;
+    width:80%;
+    object-fit: cover;
+    object-position: center;
+}
+#child3 button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: #F16625;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) .5s;
+}
+#child3 button:hover{
+    background-color: #b8410a;
+    /* color: red; */
+}
+#card{
+    height: 10%;
+    width: 100%;
+    background-color: #000000;
+    margin-bottom: 30px;
+}
